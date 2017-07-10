@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-D7E1696A4FE834E035F47C97A12EC954_0000</CrashGUID>
+		<ProcessId>10380</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>14380</SecondsSinceStart>
+		<GameName>UE4-CharInteraction</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Vanilla</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.16.1-3466753+++UE4+Release-4.16</EngineVersion>
+		<CommandLine>&quot;E:\Ceeray\CharInteraction\data\CharInteraction.uproject&quot;</CommandLine>
+		<LanguageLCID>2052</LanguageLCID>
+		<AppDefaultLocale>zh-CN</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.16-CL-3466753</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Administrator</UserName>
+		<BaseDir>E:/Ue4/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>E:/Ue4/UE_4.16/</RootDir>
+		<MachineId>893B13354CA6821D545100AECEE18CA8</MachineId>
+		<LoginId>893b13354ca6821d545100aecee18ca8</LoginId>
+		<EpicAccountId>e231fa7e2a0545af83bd668649ed2b81</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint>Layout=&quot;AssetEditorToolkit_Toolbar&quot; Label=&quot;Toolbar&quot; Content=SBorder</UserActivityHint>
+		<ErrorMessage>Assertion failed: CurveToCopyFrom.IsValid() [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Public\Animation/AnimCurveTypes.h] [Line: 496] &nl;Copying data from an invalid curve UIDList: 0x0 (Sizes -1/0)&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1060 6GB</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>17136611328</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>8813518848</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140730237378560</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>4187332608</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>4187332608</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>6032736256</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>6032736256</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636328467684730000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
