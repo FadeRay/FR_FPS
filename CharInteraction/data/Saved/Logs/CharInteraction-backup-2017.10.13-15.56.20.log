@@ -1,0 +1,142 @@
+﻿Log file open, 09/18/17 09:19:01
+LogInit:Display: Running engine for game: CharInteraction
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-216321819) SRandInit(-216321819).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089134
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = true  - Libcurl will use HTTP proxy
+LogInit:  - HttpProxyAddress = '127.0.0.1:61187'
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: E:/Ue4/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.18-01.19.02:290][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.18-01.19.02:290][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.18-01.19.02:333][  0]LogInit: Computer: CHEN-RUI
+[2017.09.18-01.19.02:333][  0]LogInit: User: Administrator
+[2017.09.18-01.19.02:333][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.18-01.19.02:333][  0]LogInit: High frequency timer resolution =3.515628 MHz
+[2017.09.18-01.19.02:333][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.09.18-01.19.02:333][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.18-01.19.02:333][  0]LogMemory: Process Physical Memory: 273.91 MB used, 273.91 MB peak
+[2017.09.18-01.19.02:333][  0]LogMemory: Process Virtual Memory: 260.77 MB used, 260.77 MB peak
+[2017.09.18-01.19.02:333][  0]LogMemory: Physical Memory: 10319.35 MB used,  6023.40 MB free, 16342.75 MB total
+[2017.09.18-01.19.02:333][  0]LogMemory: Virtual Memory: 637.94 MB used,  6023.40 MB free, 134217728.00 MB total
+[2017.09.18-01.19.02:517][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.09.18-01.19.02:517][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.09.18-01.19.03:816][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.18-01.19.03:858][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.09.18-01.19.03:858][  0]LogD3D11RHI:       6084/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.18-01.19.03:860][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.18-01.19.03:860][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.18-01.19.03:860][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.18-01.19.03:866][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.18-01.19.03:866][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.18-01.19.03:866][  0]LogWindows: EnumDisplayDevices:
+[2017.09.18-01.19.03:866][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.09.18-01.19.03:867][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.09.18-01.19.03:867][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.18-01.19.03:867][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.18-01.19.03:867][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.18-01.19.03:867][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.09.18-01.19.03:867][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.09.18-01.19.03:867][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.09.18-01.19.03:867][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.18-01.19.03:897][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.18-01.19.03:907][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.18-01.19.03:998][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../Ceeray/CharInteraction/data/Intermediate/Shaders/WorkingDirectory/9596/).
+[2017.09.18-01.19.03:998][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/FD125C32420D9DED506BC69C4DC7381E/'.
+[2017.09.18-01.19.03:998][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.18-01.19.05:569][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.18-01.19.05:613][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.18-01.19.05:652][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.18-01.19.05:693][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.18-01.19.05:744][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.18-01.19.05:787][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.18-01.19.05:828][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.18-01.19.05:868][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.18-01.19.05:902][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.18-01.19.05:957][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.18-01.19.05:996][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.18-01.19.06:040][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.18-01.19.06:083][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.18-01.19.06:122][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.18-01.19.06:163][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.18-01.19.06:250][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.18-01.19.06:250][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.18-01.19.06:281][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.18-01.19.06:398][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.18-01.19.06:420][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.18-01.19.06:459][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.18-01.19.06:501][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.18-01.19.06:540][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.18-01.19.06:579][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.18-01.19.06:579][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.18-01.19.07:366][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.18-01.19.07:486][  0]LogDerivedDataCache: Loaded boot cache 0.12s 112MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.18-01.19.07:486][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.18-01.19.07:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Ceeray/CharInteraction/data/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.18-01.19.07:486][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.18-01.19.07:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Ceeray/CharInteraction/data/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.18-01.19.07:486][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.18-01.19.07:510][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.18-01.19.07:523][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.18-01.19.07:556][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.18-01.19.07:556][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.18-01.19.07:576][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.18-01.19.07:577][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.18-01.19.09:229][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.18-01.19.09:325][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.18-01.19.09:611][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.18-01.19.09:672][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.18-01.19.09:721][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.18-01.19.09:722][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.18-01.19.09:722][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.18-01.19.10:306][  0]LogNetVersion: CharInteraction , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1133467863)
+[2017.09.18-01.19.10:373][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.09.18-01.19.10:637][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.248555 seconds
+[2017.09.18-01.19.10:643][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.18-01.19.10:643][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.18-01.19.10:643][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.18-01.19.10:691][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
